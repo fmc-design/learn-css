@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes (Hover and Dropdown))</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* Don't display the list items */
+        .dropdown-content a {
+            display: none;
+        }
+
+        /* Display the list items as a dropdown list when hovering over Items */
+        .dropdown:hover .dropdown-content a {
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="dropdown">
+        <a href="#">Items</a>
+        <div class="dropdown-content">
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
+        </div>
+    </div>
+
+</body>
+</html>

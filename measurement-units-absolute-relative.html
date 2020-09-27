@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurement Units (absolute and relative)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+/* EM and REM both change when the browser font size is manually changed so it is recommended and good practice */
+
+        html {
+            font-size: 30px;
+        }
+
+        body {
+            font-size: 10px;
+
+        }
+        
+        /* REM is relative to the html font-size */
+        h1{
+            font-size: 3rem;
+        }
+
+        /* EM is relative to the next higher level absolute font-size */
+        div {
+            font-size: 5em;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Heading</h1>
+
+    <div>
+        <p>Paragraph</p>
+    </div>
+
+</body>
+</html>

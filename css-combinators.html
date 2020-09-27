@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+        
+        /* Descendant [Space] 
+        Matches ALL descendant elements of specified element*/
+        section p {
+            background-color: red;
+        }
+        
+        /* Child [-]
+        Selects all immediate children of specified element*/
+        section > p {
+            background-color: green;
+        }
+
+        /* Adjacent Sibling [+]
+        Selects immediately following sibling of specified element*/
+        h1 + p {
+            background-color: yellow;
+        }
+
+        /* General Sibling [~]
+        Selects all siblings placed after specified element*/
+        h1 ~ p {
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <p>Paragraph 1</p>
+        <h1>Heading 1</h1>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <div>
+            <p>Nested Paragraph</p>
+        </div>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </section>
+    
+</body>
+</html>

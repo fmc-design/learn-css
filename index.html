@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fearless Movement Hotel</title>
+    <!-- #region Styles -->
     <!-- Site Icon -->
     <link rel="shortcut icon" href="img/FMC Logo 512px.png" />
     <!-- Font Awesome Fonts -->
@@ -24,12 +25,13 @@
     <!-- Style Sheet -->
     <link rel="stylesheet" href="style.css" />
     <style></style>
+    <!-- #endregion Styles -->
   </head>
   <body>
-    <!-- Navigation Bar -->
+    <!-- #region Navigation Bar -->
     <div class="navbar">
-      <input type="checkbox" class="checkbox" id="click" />
-      <!-- sidebar -->
+      <input type="checkbox" class="checkbox" id="click" hidden />
+      <!-- #region Sidebar -->
       <div class="sidebar">
         <label for="click">
           <div class="menu-icon">
@@ -59,8 +61,8 @@
           <p class="year">2020</p>
         </div>
       </div>
-      <!-- end of sidebar -->
-      <!-- Navigation -->
+      <!-- #endregion Sidebar -->
+      <!-- #region Navigation -->
       <nav class="navigation">
         <div class="navigation-header">
           <h1 class="navigation-heading">
@@ -100,10 +102,237 @@
           </li>
         </ul>
         <div class="copyright">
-          <p>&copy; 2018. Grand Hotel. All Rights Reserved</p>
+          <p>&copy; 2020. Fearless Movement Hotel. All Rights Reserved</p>
         </div>
       </nav>
-      <!-- End of Navigation -->
+      <!-- #endregion Navigation -->
     </div>
+    <!-- #endregion Navigation Bar -->
+    <!-- #region Header -->
+    <header class="header">
+      <div class="brand">
+        <img src="img/FMC Logo 512px.png" />
+        <h3 class="hotel-heading">Fearless Movement Hotel</h3>
+      </div>
+      <div class="banner">
+        <h1 class="banner-heading">Welcome to <br />Fearless Movement Hotel</h1>
+        <p class="banner-paragraph">Make your life luxurious</p>
+        <button class="banner-button">Check Out</button>
+      </div>
+    </header>
+    <!-- #endregion Header -->
+    <!-- #region About Us -->
+    <section class="about-us">
+      <div class="about-us-content">
+        <h1 class="about-us-heading">About Us</h1>
+        <div class="underline">
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
+        </div>
+        <h3 class="sub-heading">Fearless Movement Hotel</h3>
+        <p class="about-us-paragraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam fuga
+          illo, magni debitis, ex vitae necessitatibus quia dolores sed autem,
+          quos id facilis mollitia quidem perspiciatis quibusdam perferendis
+          suscipit dignissimos! Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Numquam fuga illo, magni debitis, ex vitae
+          necessitatibus quia dolores sed autem, quos id facilis mollitia quidem
+          perspiciatis quibusdam perferendis suscipit dignissimos!
+        </p>
+        <button class="about-us-btn">
+          Read More
+          <i class="fas fa-angle-double-right btn-arrow"></i>
+        </button>
+      </div>
+      <div class="about-us-images">
+        <img src="img/about-us-image-1.png" class="image image-1" />
+        <img src="img/about-us-image-2.png" class="image image-2" />
+        <img src="img/about-us-image-3.png" class="image image-3" />
+        <img src="img/about-us-image-4.png" class="image image-4" />
+      </div>
+    </section>
+    <!-- #endregion About Us -->
+    <!-- #region Rooms -->
+    <section class="rooms">
+      <div class ="common-header">
+        <h1 class="common-heading">Rooms in the Fearless Hotel</h1>
+        <div class="underline">
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
+        </div>
+      </div>
+      <div class="rooms-cards-wrapper">
+        <div class="room-card">
+          <img src="img/about-us-image-1.png" class="room-img">
+          <div class="room-card-content">
+            <h4 class="room-card-heading">Single Room</h4>
+            <p class="room-card-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente distinctio doloremque tempore culpa saepe excepturi!</p>
+            <p class="room-price">$99.00</p>
+            <button class="room-btn">
+              Book Now
+              <i class="fas fa-angle-double-right btn-arrow"></i>
+            </button>
+          </div>
+        </div>
+          <div class="room-card">
+            <img src="img/about-us-image-2.png" class="room-img">
+            <div class="room-card-content">
+              <h4 class="room-card-heading">Double Room</h4>
+              <p class="room-card-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente distinctio doloremque tempore culpa saepe excepturi!</p>
+              <p class="room-price">$199.00</p>
+              <button class="room-btn">
+                Book Now
+                <i class="fas fa-angle-double-right btn-arrow"></i>
+              </button>
+            </div>
+          </div>
+            <div class="room-card">
+              <img src="img/about-us-image-3.png" class="room-img">
+              <div class="room-card-content">
+                <h4 class="room-card-heading">Queen Room</h4>
+                <p class="room-card-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente distinctio doloremque tempore culpa saepe excepturi!</p>
+                <p class="room-price">$299.00</p>
+                <button class="room-btn">
+                  Book Now
+                  <i class="fas fa-angle-double-right btn-arrow"></i>
+                </button>
+              </div>
+            </div>
+              <div class="room-card">
+                <img src="img/about-us-image-4.png" class="room-img">
+                <div class="room-card-content">
+                  <h4 class="room-card-heading">Deluxe</h4>
+                  <p class="room-card-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente distinctio doloremque tempore culpa saepe excepturi!</p>
+                  <p class="room-price">$399.00</p>
+                  <button class="room-btn">
+                    Book Now
+                    <i class="fas fa-angle-double-right btn-arrow"></i>
+                  </button>
+                </div>
+              </div>
+        </div>
+        <div class="rooms-btn-wrapper">
+          <button class="rooms-btn">Check All Rooms</button>
+        </div>
+      </div>
+    </section>
+    <!-- #endregion Rooms -->
+    <!-- #region Customers -->
+    <section class="customers">
+      <div class ="common-header">
+        <h1 class="common-heading">Our Customers</h1>
+        <div class="underline">
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
+        </div>
+        <p class="customers-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam at atque ratione hic harum quae minima quasi, maiores pariatur, esse est sint laudantium! Sunt labore tempora velit, voluptatum iusto suscipit.</p>
+        <div class="customers-card-wrapper">
+          <div class="customer-card">
+            <div class="customer-image-wrapper">
+              <img src="img/about-us-image-1.png" class="customer-image">
+            </div>
+            <div class="customer-info">
+              <h3 class="customer-full-name">Bikey mcBike</h3>
+              <p class="customer-paragraph-1">Happy Customer</p>
+              <p class="customer-paragraph-2">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque neque, eos, sint corporis ipsum iusto expedita fuga voluptate architecto maiores ad quae placeat cumque totam vel quo. Temporibus, non laudantium."</p>
+            </div>
+          </div>
+          <div class="customer-card">
+            <div class="customer-image-wrapper">
+              <img src="img/about-us-image-2.png" class="customer-image">
+            </div>
+            <div class="customer-info">
+              <h3 class="customer-full-name">Friendliest Friend</h3>
+              <p class="customer-paragraph-1">Happy Customer</p>
+              <p class="customer-paragraph-2">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque neque, eos, sint corporis ipsum iusto expedita fuga voluptate architecto maiores ad quae placeat cumque totam vel quo. Temporibus, non laudantium."</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- #endregion Customers -->
+    <!-- #region Footer -->
+    <footer class="footer">
+      <div class="main-part">
+        <div class="footer-list-wrapper">
+          <h3 class="footer-heading">Fearless Hotel</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a class="footer-list-link">support@fearlessmovement.co</a>
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-list-link">Melbourne ste, Melbourne, 1234</a>
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-list-link">Tel: 0448621428</a>
+            </li>
+          </ul>
+        </div>
+          <div class="footer-list-wrapper">
+            <h3 class="footer-heading">Explore</h3>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Home</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">About Us</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Rooms</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Events</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Customers</a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3 class="footer-heading">Contact</h3>
+            <p>Sign Up For News</p>
+            <form class="footer-form">
+              <input type="text" class="footer-input" placeholder="Your email...">
+              <button class="footer-btn">Sign Up</button>
+            </form>
+          </div>
+          <div class="gallery">
+            <h3 class="footer-heading">Gallery</h3>
+            <div class="gallery-images">
+              <div class="image-wrapper">
+                <img src="img/about-us-image-1.png" class="footer-image">
+              </div>
+              <div class="image-wrapper">
+                <img src="img/about-us-image-2.png" class="footer-image">
+              </div>
+              <div class="image-wrapper">
+                <img src="img/about-us-image-3.png" class="footer-image">
+              </div>
+              <div class="image-wrapper">
+                <img src="img/about-us-image-4.png" class="footer-image">
+              </div>
+              <div class="image-wrapper">
+                <img src="img/about-us-image-1.png" class="footer-image">
+              </div>
+              <div class="image-wrapper">
+                <img src="img/about-us-image-2.png" class="footer-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="creator-part">
+        <div class="copyright-text">
+          <p> Copyright &copy; 2020. Fearless Movement Collective. All Rights Reserved</p>
+        </div>
+        <div class="text-right">
+          <p>Made With <i class="fas fa-heart"></i>
+            <span>by Zay Canters (They/Them)</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- #endregion Footer -->
   </body>
 </html>

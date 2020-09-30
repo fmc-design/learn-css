@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <title>CSS Grid (auto-fill and auto-fit)</title>
+          <meta
+               name="description"
+               content="Insert a 50–160 character description of the post that is compelling and includes the same keyword which is in the title"
+          />
+
+          <style>
+               .container {
+                    width: 90%;
+                    background-color: lightgrey;
+                    margin: 40px auto;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+                    /* grid-template-columns: repeat(auto-fill, 80px); */
+                    /* grid-template-rows: 150px 150px; */
+                    /* grid-gap: 1rem; */
+               }
+
+               .item {
+                    font-size: 2rem;
+                    background-color: royalblue;
+                    color: #efefef;
+                    text-align: center;
+               }
+
+          </style>
+     </head>
+     <body>
+          <div class="container">
+               <!-- <div class="item">Loremmmmmmmmmmmm ipsum dolor. item 1</div> -->
+               <div class="item">item 1</div>
+               <div class="item">item 2</div>
+               <div class="item">item 3</div>
+               <div class="item">item 4</div>
+               <div class="item">item 5</div>
+               <div class="item">item 6</div>
+               <div class="item">item 7</div>
+               <div class="item">item 8</div>
+          </div>
+     </body>
+</html>
